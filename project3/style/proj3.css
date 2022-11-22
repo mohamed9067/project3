@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navcol{
+align-items: center;
+background-color: rgb(9, 10, 10);
+display: flex;
+justify-content: space-between;
+padding: 0px 20px 0px 20px;
+}
+
+
+a{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    display:block;
+    text-align: center;
+    transition: .5s;
+    width: 80px;
+    
+
+}
+li{
+    justify-content: space-between;
+    justify-content: center;
+    list-style: none;
+}
+
+.co{
+    width: 80px;
+    height: 50px;
+    background-image: url(../imag/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pazel{
+    border: 2px green;
+    border-radius: 8px;
+background-color:rgba(48, 94, 37, 0.4);
+
+}
+a:hover {
+    color: rgb(4, 152, 221);
+    letter-spacing: 8px;
+
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.Home{
+width: 100%;
+height: 100vh;
+background-image: url(../imag/43617cbec6e778ed45b874ce2e8df4ae.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.about1{
+    display: flex;
+    justify-content: center;
+
+
+}
+.ab2 {
+
+    text-align: center;
+}
+.ab2 h1{
+    position: relative;
+    display: inline;
+    
+}
+
+.ab2 h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: reed;
+    background-color: rgb(209, 147, 12);
+    height: 1px;
+    left: 0;
+    bottom: 0;
+}
+ 
+.footr{
+    display: flex;
+}
+#paragraph{
+    padding: 0px 20px;
+    display: flex;
+justify-content: center;
+
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(192, 181, 167);
+}
+#paragraph p{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+    background-color: rgb(94, 116, 116);
+
+}
+#abseluot{
+    width: 50%;
+    height: 100vh;
+    background-image: url(../imag/f752f696f5b492cd06a30e59f432f85c.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
